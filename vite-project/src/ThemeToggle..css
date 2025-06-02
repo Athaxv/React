@@ -1,0 +1,37 @@
+.container {
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+  margin: 2rem auto;
+  max-width: 400px;
+}
+
+.light {
+  background-color: #f9f9f9;
+  color: #1a1a1a;
+}
+
+.dark {
+  background-color: #1a1a1a;
+  color: #f9f9f9;
+}
+
+.toggle-btn {
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  background: #6366f1;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.toggle-btn:hover {
+  opacity: 0.9;
+}
+
+.content {
+  font-size: 1.1rem;
+}
